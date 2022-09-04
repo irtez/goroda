@@ -1,5 +1,5 @@
 cityes_old = []
-symbols_bad = {"ь","ъ","ы","ц","й"}
+symbols_bad = {"ь","ъ","ц","й"}
   
   
 text1 = open("города.txt")
