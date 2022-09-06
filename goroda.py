@@ -60,11 +60,11 @@ if mode == '1':
                 else:
                     correct = False
                     if cityCheck(city, cityes_all, cityes_old, s_end) == 1:
-                        print("Не верно. Назовите город на букву", s_end)
+                        print("Неверно. Назовите город на букву", s_end)
                     elif cityCheck(city, cityes_all, cityes_old, s_end) == 2:
-                        print("Не верно. Такого города не существует")
+                        print("Неверно. Такого города не существует")
                     elif cityCheck(city, cityes_all, cityes_old, s_end) == 3:
-                        print("Не верно. Такой город уже называли")
+                        print("Неверно. Такой город уже называли")
                     else:
                         correct = True
             step = 'AI'
@@ -112,7 +112,7 @@ else:
             if city in cityes:
                 correct = True
             else:
-                print("Не верно. Такого города не существует")
+                print("Неверно. Такого города не существует")
 
     if not game_over:
         s_end = city[-1]
@@ -135,11 +135,11 @@ else:
                 correct = True
             else:
                 if cityCheck(city, cityes_all, cityes_old, s_end) == 1:
-                    print("Не верно. Назовите город на букву", s_end)
+                    print("Неверно. Назовите город на букву", s_end)
                 elif cityCheck(city, cityes_all, cityes_old, s_end) == 2:
-                    print("Не верно. Такого города не существует")
+                    print("Неверно. Такого города не существует")
                 elif cityCheck(city, cityes_all, cityes_old, s_end) == 3:
-                    print("Не верно. Такой город уже называли")
+                    print("Неверно. Такой город уже называли")
                 else:
                     correct = True
 
